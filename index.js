@@ -12,7 +12,7 @@ console.log(`
 `);
 
 const server = http.createServer();
-const url = "https://oddpvp.github.io/unblockedgames/";
+const url = "https://games.odd.gay/";
 const PORT = process.env.PORT || 8080;
 
 server.on('request', async (req, res) => {
